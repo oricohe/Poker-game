@@ -172,7 +172,6 @@ class Poker():
                 max_str = str
                 best_hand = hand
         return {"best_hand":best_hand,"max_score":max_score,"max_list_n":max_list_n,"max_str":max_str}
-        #return [best_hand, max_score, max_list_n, max_str]
 
     def win(self, hand):
         return  self.straight_flush_and_royal_flush(hand)
